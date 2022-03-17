@@ -10,7 +10,7 @@ const PUBLIC_DIR = "public";
 const STATIC_DIR = "static";
 
 /**
- * Build and minify all client code for Express
+ * Build and minify all client code for Express//
  */
 function bundleClient() {
   const options = {

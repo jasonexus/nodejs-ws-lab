@@ -102,7 +102,7 @@ class GameScene extends Phaser.Scene {
    * Create the game objects required by the scene
    */
   public create() {
-    // Create the TileMap and the Layer
+    // Create the TileMap and the Layer //
     const tileMap = this.add.tilemap("map", 16, 16);
     tileMap.addTilesetImage("tiles");
     const layer = tileMap.createDynamicLayer("layer", "tiles", 0, 0);
